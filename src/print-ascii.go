@@ -6,7 +6,8 @@ import (
 	"strings"
 
 	asciiart "github.com/romance-dev/ascii-art"
-	_ "github.com/romance-dev/ascii-art/fonts" // load all fonts
+	_ "github.com/romance-dev/ascii-art/fonts/standard" // load a specific font (Standard)
+	//_ "github.com/romance-dev/ascii-art/fonts" // load all fonts
 )
 
 func main() {
